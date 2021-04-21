@@ -1,21 +1,30 @@
-Projet 7 - Réseau social interne Groupomania
+# Projet 7 Openclassrooms - Developpeur web
 
-Pour le Frontend 
-=> lire le README associé
-
-Pour le Backend
-
-Setup du projet
+## Frontend
+```
+Consulter le README associé
+```
+## Backend
+### Setup du projet
+```
 npm install
-
-Pour lancer le serveur de développement
+```
+### Lancement du serveur de développement
+```
 nodemon serve
-
-Fichiers à compléter
-Config/Config.js 
+```
+### Fichiers à compléter
+```
+Config/config.json
+```
 .env.example
+```
+=> Remplacer les **** par vos données
+```
+## Bienvenue sur le réseau social interne de Groupomania
+```
 
-=> Remplacer les **** par vos données perso
-=> Remplacer .env.example par .env
 
-Bienvenue parmis nous !!
+````
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
