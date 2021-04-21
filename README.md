@@ -21,7 +21,7 @@ Config/config.json
 ```
 => Remplacer les **** par vos données
 ```
-## Bienvenue sur le réseau social interne de Groupomania
+## Bienvenue sur le réseau social interne de Groupomania 👋🏼
 ```
 
 
