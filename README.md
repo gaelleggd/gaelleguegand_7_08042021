@@ -17,7 +17,9 @@ nodemon serve
 ```
 Config/config.json
 ```
+```
 .env.example
+```
 ```
 => Remplacer les **** par vos données
 ```
