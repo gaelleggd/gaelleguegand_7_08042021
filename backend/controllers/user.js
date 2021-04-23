@@ -14,7 +14,7 @@ exports.signup = (req, res) => {
   const name = req.body.name;
   const password = req.body.password;
   const regexEmail = /^[a-z0-9._-]+@[a-z0-9.-]{2,}[.][a-z]{2,3}$/; // Caractères imposés pour le mail et mdp
-  const regexPassword = /((?=.*[a-z])(?=.*[A-Z]).{6,10})/;
+  const regexPassword = /((?=.*[a-z])(?=.*[A-Z]).{6,})/;
 
   if (email === null || email === '' || // Rendre tours les champs obligatoires
     firstname === null || firstname === '' ||

@@ -3,10 +3,8 @@
 const { Post, User, Like, Comment } = require("../models");
 const { Op } = require("sequelize");
 const fs = require('fs');
-const db = require("../models");
 
-exports.getPosts = (req, res) => {
-  // Récupère tous les posts avec les utilisateurs correspondants 
+exports.getPosts = (req, res) => { // Récupère tous les posts avec les utilisateurs correspondants
   Post.scope('formatted_date').findAll({
     include: [{ model: User, as: 'User', attributes: ['firstname', 'name', 'avatar_url'] },
     { model: Like },  // Récupère les likes 

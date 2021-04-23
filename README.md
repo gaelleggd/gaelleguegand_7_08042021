@@ -25,8 +25,6 @@ Config/config.json
 ```
 ## Bienvenue sur le réseau social interne de Groupomania 👋🏼
 ```
-
-
-````
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
